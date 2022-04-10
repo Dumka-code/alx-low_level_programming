@@ -11,10 +11,15 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		if (c != 'e' && c != 'q')
-		{
 		putchar(c);
-		}
+		c++;
+	}
+
+	c = 'A';
+
+	while(c <= 'Z')
+	{	
+		putchar(c);
 		c++;
 	}
 
