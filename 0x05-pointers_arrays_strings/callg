@@ -1,0 +1,7 @@
+#!/bin/bash
+# script for adding 
+git add .
+# script for commiting 
+git commit -m README.md
+# git cmd for push
+git push
