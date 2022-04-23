@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# script for adding 
+
+git add .
+
+# script for commiting 
+
+git commit -m README.md
+
+# git cmd for push
+
+git push
+
+echo 'Dumka bash code for g-push has been executed!'
