@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# creating a readme.md file if nor is avalible
+
+echo "auto gen README file to call" > README.md
+
+# script for adding
+
+git add .
+
+# script for commiting
+
+git commit -m README.md
+
+# git cmd for push
+
+git push
