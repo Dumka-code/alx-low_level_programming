@@ -40,15 +40,4 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	p[i] = '\0';
 	return (p);
 
-<<<<<<< HEAD
-	for (p = 0; p < i; p++)
-		ar[k++] = s1[p];
-	for (m = 0; m < j; m++)
-		ar[k++] = s2[m];
-
-	ar[k] = '\0';
-	return (ar);
 }
-=======
-}
->>>>>>> 279bb78c66a3a562c9b7dce8a596eee8dde7198e
