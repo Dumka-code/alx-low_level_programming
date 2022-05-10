@@ -95,6 +95,20 @@ int tama(char *s)
 	return (i);
 }
 /**
+ * Perror - print Error with putchar.
+ * Return: Always 0.
+ */
+void Perror(void)
+{
+	_putchar('E');
+	_putchar('r');
+	_putchar('r');
+	_putchar('o');
+	_putchar('r');
+	_putchar('\n');
+	exit(98);
+}
+/**
  * numero - check if strings have only numbers.
  * @s: string 1
  * @a: string 2
