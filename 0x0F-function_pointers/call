@@ -1,6 +1,8 @@
+#!/bin/bash
+
 git add . 
 git commit -m RREADME.md
-if(*.c == !(chmod u+x))
+ #if(*.c == !(chmod u+x))
  chmod u+x *.c
 git push
 
